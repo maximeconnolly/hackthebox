@@ -1,7 +1,3 @@
-# Machine Info
-## Summary
-
-
 # Scanning & Enumeration
 
 ## Nmap Scan
