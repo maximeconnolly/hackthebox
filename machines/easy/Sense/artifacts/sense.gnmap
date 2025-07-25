@@ -1,0 +1,4 @@
+# Nmap 7.97 scan initiated Fri Jul 25 09:44:23 2025 as: nmap -p- -A -oA artifacts/sense 10.10.10.60
+Host: 10.10.10.60 ()	Status: Up
+Host: 10.10.10.60 ()	Ports: 80/open/tcp//http//lighttpd 1.4.35/, 443/open/tcp//ssl|https?///	Ignored State: filtered (65533)
+# Nmap done at Fri Jul 25 09:46:23 2025 -- 1 IP address (1 host up) scanned in 120.25 seconds
