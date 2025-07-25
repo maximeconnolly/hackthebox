@@ -10,7 +10,7 @@ Mirai is a notorious piece of malware that primarily targets Internet of Things 
 
 Analysing the nmap scan, we can see six open ports:
 
-- 22 (SSH) - Secure Shel
+- 22 (SSH) - Secure Shell
 - 53 (DNS) - Domain Name Service
 - 80 (HTTP) - Web Server
 - 1508 (UPNP) - Universal Plug and Play
@@ -18,7 +18,7 @@ Analysing the nmap scan, we can see six open ports:
 - 32469 (UPNP) - Universal Plug and Play
 
 ## Web Server
-We accessing the root directory of the web server on port 80, we receive the following error:
+When accessing the root directory of the web server on port 80, we receive the following error:
 
 ![404-webserver](screenshots/web-server-80-404-error.png)
 
@@ -83,7 +83,7 @@ This scans the raw disk for human-readable text, and ...
 
 Success! We've managed to recover the root flag.
 
-# Lessons learned
+# Lessons Learned
 * Change default password after installation
 * Make proper backups for important files
 
